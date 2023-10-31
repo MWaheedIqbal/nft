@@ -5,14 +5,14 @@ import Wrapper from "@/components/shared/Wrapper";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-10 bg-black">
+    <header className="sticky h-20 top-0 z-10 bg-black">
       <Wrapper>
         <div className="flex justify-between py-4 items-center ">
           {/* Logo */}
           <div>
-            {/* <h2 className="text-xl font-bold">Panaverse Dao</h2> */}
             <Image src={Logo} alt="NFT logo" />
           </div>
+
           {/* Navigation Bar */}
           <ul className="flex space-x-8 text-white font-medium">
             <li>
@@ -22,6 +22,9 @@ const Header = () => {
               <Link href={"/courses"}>Courses</Link>
             </li>
           </ul>
+
+          {/* Search Bar*/}
+          {/* <div className="text-lg text-white">Search Bar</div> */}
         </div>
       </Wrapper>
     </header>

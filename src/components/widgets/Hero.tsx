@@ -12,20 +12,22 @@ const Hero = () => {
           {/* Left Side */}
           <div className="flex-1">
             <h1 className="text-primary text-white font-sans font-extrabold text-7xl mt-4">
-              Discover Unique and incredible rare digital art
+              Discover Unique and{" "}
+              <span className="text-amber-600">incredible</span> rare digital
+              art
             </h1>
-            <p className="mt-6 text-xl text-white">
+            <p className="mt-20 text-xl text-white">
               NFTPro is a website that created for the person who love art.
               Where people can buy a piece of art and it's completely theirs.
               This system is kinda similar to crypto
             </p>
             <div className="flex space-x-9">
               {/* <Button/> */}
-              <div className="mt-6 bg-amber-500 hover:bg-white rounded-full">
+              <div className="mt-12 px-4 py-1 bg-amber-500 hover:bg-white duration-500 rounded-full">
                 <Button text={"Explore"} />
               </div>
 
-              <div className="mt-6 bg-black border-solid border-2 border-amber-500  text-amber-500 hover:bg-amber-500 hover:text-black rounded-full">
+              <div className="mt-12 bg-black border-solid border-2 border-amber-500  text-amber-500 hover:bg-amber-500 hover:text-black rounded-full">
                 <Button text={"Connect Wallet"} />
               </div>
             </div>
