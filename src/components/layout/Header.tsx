@@ -5,7 +5,7 @@ import Wrapper from "@/components/shared/Wrapper";
 
 const Header = () => {
   return (
-    <header className="sticky h-20 top-0 z-10 bg-black">
+    <header className="sticky h-16 top-0 z-10 bg-black">
       <Wrapper>
         <div className="flex justify-between py-4 items-center ">
           {/* Logo */}
